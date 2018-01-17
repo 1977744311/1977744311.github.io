@@ -1,18 +1,18 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 好好学习，天天打码
+keywords: Guo ChengZhe, 郭承哲
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是郭承哲，孤独世界里的一片鸿毛。
 
-仰慕「优雅编码的艺术」。
+人生格言：
 
-坚信熟能生巧，努力改变人生。
+接受你必须接受的，改变你能改变的。
 
 ## 联系
 
