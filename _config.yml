@@ -5,7 +5,7 @@ baseurl:
 url: http://stevenself.top
 date_format: "ordinal"
 title: stevenself
-subtitle: "好好学习，天天打码"
+subtitle: "Hallo!欢迎您！"
 description: "郭承哲的个人博客"
 keywords: stevenself, guochengzhe, 1977744311, steven
 timezone: Asia/Shanghai
@@ -83,7 +83,7 @@ repository: mzlogin/mzlogin.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: laibili
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
