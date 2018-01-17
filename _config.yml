@@ -2,25 +2,25 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://stevenself.top
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: stevenself
+subtitle: "好好学习，天天打码"
+description: "郭承哲的个人博客"
+keywords: stevenself, guochengzhe, 1977744311, steven
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
+side_bar_repo_limit: 3
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Guo ChengZhe
+organization: 3FullStack
+organization_url: https://github.com/3FullStack
+github_username: 1977744311
+location: ZhengZhou, China
+email: stevenself.top@gmail.com
 
 # ---------------- #
 #    Navigation    #
