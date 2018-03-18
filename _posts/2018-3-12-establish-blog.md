@@ -39,7 +39,7 @@ GitHub Pages 是一个免费的服务器，它能给你提供一个G的空间存
 * 申请 GitHub Pages 
 那么一个这么好的神器，我们怎么才能申请呢？首先你要拥有一个 GitHub 账号（没有怎么办？那就去注册一个啊=-=），在拥有账号后，点击你账号下的 New repository 
 新建一个仓库，然后就会来到如下页面：
-![]()
+![](https://1977744311.github.io/images/posts/blog/blog3.png)
 按照图示创建，然后点击绿色的创建按钮，然后你的 GitHub Pages 就自动开通了。
 接下来需要将你的 GitHub Pages 目录克隆到本地，在终端打开一个安全的目录输入以下命令：
 
