@@ -7,8 +7,8 @@ keywords: 博客
 ---
 # 写在开头
 
-这篇文章主要讲如何拥有自己的域名，如何利用jekyll或者hexo轻松搭建一个属于自己的博客。
-然后你可以在属于自己的网页上展示你的github、微信、微博、QQ、Twitter、Email等信息，但主要是展示自己的作品。
+这篇文章主要讲如何拥有自己的域名，如何利用 jekyll 或者 hexo 轻松搭建一个属于自己的博客。
+然后你可以在属于自己的网页上展示你的 github、微信、微博、QQ、Twitter 、Email 等信息，但主要是展示自己的作品。
 >树立个人品牌，让名企hr主动找你
  
 ## 第一步：注册域名
@@ -32,7 +32,32 @@ keywords: 博客
  
 至此，第一步就算完成了。
  
-## 第二步：
+## 第二步：开通 GitHub Pages
+* 什么是 GitHub Pages ？
+GitHub Pages 是一个免费的服务器，它能给你提供一个G的空间存储放东西，然后也能请求到，所以用它来做你的博客的服务器最好不过了，而且还不用备案，在国内还拥有
+不错的访问速度。
+* 申请 GitHub Pages 
+那么一个这么好的神器，我们怎么才能申请呢？首先你要拥有一个 GitHub 账号（没有怎么办？那就去注册一个啊=-=），在拥有账号后，点击你账号下的 New repository 
+新建一个仓库，然后就会来到如下页面：
+![]()
+按照图示创建，然后点击绿色的创建按钮，然后你的 GitHub Pages 就自动开通了。
+接下来需要将你的 GitHub Pages 目录克隆到本地，在终端打开一个安全的目录输入以下命令：
+
+```
+echo "# ithub.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:yourname/yourname.github.io.git
+git push -u origin master
+```
+就是你建完仓库页面给你的代码复制粘贴就好了~。（如果你是第一次使用 GitHub 那么可能需要配置一下ssh，不会的可以百度关键字github ssh）
+
+## 第三步：创建博客
+### 使用jekyll搭建博客
+
+
+
  
  
  
