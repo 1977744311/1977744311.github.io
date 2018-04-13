@@ -92,9 +92,13 @@ hexo new 开博大吉     //新建一篇名为开博大吉的博客
 
 ## 常见问题
 1.如果你是windows操作系统，那么建议你用jekyll搭建博客，因为在windows下，hexo很容易安装不成功。
+
 2.如果你不喜欢我的博客的主题，那么可以去 [Jekyll Themes](http://jekyllthemes.org) 上找寻自己喜欢的主题，然后用相同的方法fork就可以了。
+
 3.如果你不喜欢hexo初始的主题，也可以去 [Hexo Themes](https://hexo.io/themes/) 上上找寻自己喜欢的主题。
+
 4.安装的过程中需要会一点点命令行，如果中间有哪点不懂可以百度或谷歌，也可以联系我的邮箱stevenself.top@gmail.com.
+
 5.如果你觉得本篇博客不错，欢迎转载，注明来源就可以了。
 
 
