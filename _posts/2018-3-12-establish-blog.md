@@ -55,7 +55,47 @@ git push -u origin master
 
 ## 第三步：创建博客
 ### 使用jekyll搭建博客
+1.fork本博客代码至你的 GitHub Pages 仓库里，地址为[代码](https://github.com/1977744311/1977744311.github.io)。
+fork 方法是，点击页面上的绿色按钮 clone or download ,会出现一行代码，点击右边那个小按钮复制，然后在终端输入 git clone + 刚刚复制的地址就OK了。
 
+2.设置域名,如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。
+
+3.修改配置，在 _config.yml 文件中把有关于个人信息的内容全部更改为自己的，例如网站的 url、title、subtitle 和第三方评论模块的配置等。
+
+4.删除我的文章与图片。_posts、_drafts、_wiki、images 这些文件夹里除了 template.md 文件，其他都可以删除。
+
+5.修改关于页面，将 pages/about.md 里的文件内容有关个人的信息替换成自己的。
+
+6.至此你的博客就搭建成功了，如果需要发表博客那就在 _posts 文件下导入你的.md文件，文件格式头参考 template.md 文件（如果没有设置域名，则你的博客为yourname.github.io） 
+
+### 使用hexo搭建博客
+1.从终端进入一个安全的目录，然后敲下如下命令：
+```
+npm install -g hexo-cli //安装hexo
+hexo init myBlog  //初始化一个hexo文件夹
+cd myBlog    //打开这个文件夹
+npm i        //安装依赖
+hexo new 开博大吉     //新建一篇名为开博大吉的博客
+```
+现在你的博客就搭建好了，并且目录里有一篇名为开博大吉的博客。
+
+2.配置 _config.yml 文件,把第 6 行的 title 改成你想要的名字,把第 9 行的 author 改成你的大名,把最后一行的 type 改成 type: git ,在最后一行后面新增一行，
+左边与 type 平齐，加上一行 repo: 你的 GitHub Pages 仓库地址。
+
+3.安装 git 部署插件,在终端输入以下命令：
+`npm install hexo-deployer-git --save`
+
+4.开启博客，在终端输入以下命令：
+`hexo deploy`
+
+5.在地址栏输入你的 GitHub Pages 仓库的预览地址，就可以看到你的博客了。
+
+## 常见问题
+1.如果你是windows操作系统，那么建议你用jekyll搭建博客，因为在windows下，hexo很容易安装不成功。
+2.如果你不喜欢我的博客的主题，那么可以去 [Jekyll Themes](http://jekyllthemes.org) 上找寻自己喜欢的主题，然后用相同的方法fork就可以了。
+3.如果你不喜欢hexo初始的主题，也可以去 [Hexo Themes](https://hexo.io/themes/) 上上找寻自己喜欢的主题。
+4.安装的过程中需要会一点点命令行，如果中间有哪点不懂可以百度或谷歌，也可以联系我的邮箱stevenself.top@gmail.com.
+5.如果你觉得本篇博客不错，欢迎转载，注明来源就可以了。
 
 
  
