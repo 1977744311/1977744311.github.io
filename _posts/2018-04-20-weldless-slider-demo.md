@@ -28,7 +28,7 @@ keywords: 技术
 
 图示就是三种状态的转换，需要注意的是当从current状态转换到leave状态完毕后要立即转换到enter状态，而从leave状态转换到enter状态这段动画是不能被用户看到的，用户看到的只有从enter转换到leave这段。
 
-3. 理解了上述三种状态，就应该明白无缝轮播是怎么实现得了，无非就是三种状态的变化。
+* 理解了上述三种状态，就应该明白无缝轮播是怎么实现得了，无非就是三种状态的变化。
 
 # 开始动手吧
 
@@ -80,7 +80,7 @@ keywords: 技术
 
 写完css后，我们开始写控制行为的js,首先我们先封装几个函数
 
-1. 第一个是得到当前图片的函数
+* 第一个是得到当前图片的函数
 
 ```angularjs
 function getImage(n) {
@@ -89,7 +89,7 @@ function getImage(n) {
 ```
 上述代码用到了模板字符串，${}就是一个模板字符串，具体可以参考[mdn](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings)
 
-2. 第二个是得到当前图片的序号：
+* 第二个是得到当前图片的序号：
 
 ```angularjs
 function x(n) {
@@ -103,7 +103,7 @@ function x(n) {
 }
 ```
 
-3. 然后就是切换三种状态的函数：
+* 然后就是切换三种状态的函数：
 
 ```angularjs
 function makeCurrent($node) {
@@ -119,7 +119,7 @@ function makeEnter($node) {
 }
 ```
 
-4. 接下来需要写一个初始化函数：
+* 接下来需要写一个初始化函数：
 
 ```angularjs
 function init() {
@@ -129,7 +129,7 @@ function init() {
 }
 ```
 
-5. 最后就是真正的逻辑函数：
+* 最后就是真正的逻辑函数：
 
 ```angularjs
 let n
