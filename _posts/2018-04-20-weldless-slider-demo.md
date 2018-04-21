@@ -6,6 +6,7 @@ description: 无缝轮播
 keywords: 技术
 ---
 
+
 # 什么是无缝的轮播
 
 上一篇博客我们讲了如何制作一个简单的轮播，那么我们可以发现，这个轮播的最后一张切换到第一张是不是直接切换的，而是倒着把所有图片全过一遍才切到第一张的。
@@ -23,7 +24,7 @@ keywords: 技术
 
 2. 无缝轮播无非就是三种状态，一个是当前显示的站现在用户眼前的图片，一个是待被展示的图片，一个是该图片在做完动画的状态。我们把这三种状态分别起名为current，enter，leave，先假设只有三张图片，然后按照下图所示：
 
-![](https://1977744311.github.io/images/posts/weldless-slider/2.png)
+![](https://1977744311.github.io/images/posts/weldless-slider/1.png)
 
 图示就是三种状态的转换，需要注意的是当从current状态转换到leave状态完毕后要立即转换到enter状态，而从leave状态转换到enter状态这段动画是不能被用户看到的，用户看到的只有从enter转换到leave这段。
 
