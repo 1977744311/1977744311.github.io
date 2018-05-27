@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51e9c024-0477-4bff-a18b-a91228dcad73" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-4-22-finally-sliders.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-20-weldless-slider-demo.md" afterPath="$PROJECT_DIR$/_posts/2018-04-20-weldless-slider-demo.md" />
-    </list>
+    <list default="true" id="51e9c024-0477-4bff-a18b-a91228dcad73" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-4-22-finally-sliders.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="468">
+              <first_editor relative-caret-position="3366">
                 <caret line="153" column="43" lean-forward="false" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
                 <folding>
                   <marker date="1524583214603" expanded="true" signature="604:628" ph="{...}" />
@@ -213,12 +209,12 @@
       <workItem from="1523613811568" duration="3783000" />
       <workItem from="1523871326417" duration="3758000" />
       <workItem from="1523877156916" duration="104000" />
-      <workItem from="1523877360116" duration="15340000" />
+      <workItem from="1523877360116" duration="15457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31329000" />
+    <option name="totallyTimeSpent" value="31446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="86" width="1187" height="737" extended-state="0" />
@@ -761,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-4-22-finally-sliders.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="468">
+          <first_editor relative-caret-position="3366">
             <caret line="153" column="43" lean-forward="false" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
             <folding>
               <marker date="1524583214603" expanded="true" signature="604:628" ph="{...}" />
