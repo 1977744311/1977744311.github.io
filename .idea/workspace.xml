@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e9c024-0477-4bff-a18b-a91228dcad73" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-06-29-interview4.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-06-30-interview5.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -76,12 +76,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-29-interview4.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-29-interview4.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-29-interview4.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1210">
-                <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding>
                   <marker date="1530281342867" expanded="true" signature="553:563" ph="{...}" />
                   <marker date="1530281342867" expanded="true" signature="595:606" ph="{...}" />
@@ -91,6 +91,19 @@
                   <marker date="1530281342867" expanded="true" signature="852:874" ph="{...}" />
                   <marker date="1530281342867" expanded="true" signature="883:937" ph="{&quot;el&quot;: el...}" />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-06-30-interview5.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-30-interview5.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="437">
+                <caret line="104" column="11" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -136,6 +149,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-06-27-interview-2.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-28-interview3.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-29-interview4.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-30-interview5.md" />
       </list>
     </option>
   </component>
@@ -268,12 +282,12 @@
       <workItem from="1530018917612" duration="3906000" />
       <workItem from="1530064935433" duration="3111000" />
       <workItem from="1530192277909" duration="1343000" />
-      <workItem from="1530280850629" duration="473000" />
+      <workItem from="1530280850629" duration="1392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40279000" />
+    <option name="totallyTimeSpent" value="41198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="180" y="72" width="1187" height="737" extended-state="0" />
@@ -328,13 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-21-laibili.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -784,8 +791,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-29-interview4.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1210">
-            <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
               <marker date="1530281342867" expanded="true" signature="553:563" ph="{...}" />
               <marker date="1530281342867" expanded="true" signature="595:606" ph="{...}" />
@@ -795,6 +802,17 @@
               <marker date="1530281342867" expanded="true" signature="852:874" ph="{...}" />
               <marker date="1530281342867" expanded="true" signature="883:937" ph="{&quot;el&quot;: el...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-30-interview5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="437">
+            <caret line="104" column="11" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
