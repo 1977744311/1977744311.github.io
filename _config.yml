@@ -5,12 +5,12 @@ baseurl:
 url: http://stevenself.top
 date_format: "ordinal"
 title: stevenself
-subtitle: "Hallo!欢迎您！"
+subtitle: "Hallo!欢迎来到郭承哲的个人博客"！"
 description: "郭承哲的个人博客"
 keywords: stevenself, guochengzhe, 1977744311, steven
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 3
+side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
