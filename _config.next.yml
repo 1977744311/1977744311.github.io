@@ -757,7 +757,7 @@ chat:
 # For more information: https://chatra.com
 # Dashboard: https://app.chatra.io/settings/general
 chatra:
-  enable: true
+  enable: false
   async: true
   id: 'f8bu5qwCBjDnuiRTc'
   #embed: # Unfinished experimental feature for developers. See: https://chatra.com/help/api/#injectto
@@ -772,8 +772,8 @@ tidio:
 # Gitter Support
 # For more information: https://gitter.im
 gitter:
-  enable: false
-  room:
+  enable: true
+  room: Stevenself's Blog/my-blog
 
 
 # ---------------------------------------------------------------
