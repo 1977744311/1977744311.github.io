@@ -579,7 +579,7 @@ comments:
 # Disqus
 # For more information: https://disqus.com
 disqus:
-  enable: true
+  enable: false
   shortname: stevenself
   count: true
 
@@ -635,7 +635,7 @@ utterances:
 
 # Isso
 # For more information: https://posativ.org/isso/
-isso: # <data_isso>
+isso: http://121.36.168.30/isso/
 
 
 # ---------------------------------------------------------------
