@@ -2282,10 +2282,6 @@ mark.search-keyword {
   color: #ff2a2a;
   font-weight: bold;
 }
-.gitter-open-chat-button {
-  left: auto !important;
-  right: 10px !important;
-}
 .use-motion .animated {
   animation-fill-mode: none;
   visibility: inherit;
@@ -2470,7 +2466,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #81ffd0;
+  background: #aab974;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
