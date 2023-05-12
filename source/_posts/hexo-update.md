@@ -46,25 +46,25 @@ updated: 2023-05-12
 
 项目有了，首先看版本号，先去官网看一下最新的hexo版本号和next主题的最新版本号，hexo最新的是7.0.0-rc1，next主题最新的是8.16.0，看了下现在的版本，倒也没有差太多，索性就一不做二不休，直接把这些依赖通通升级到最新的版本号，然后再一个一个解决问题就行了，升级后是右图
 
-![Untitled](Untitled%201.png)
+![Untitled](Untitled1.png)
 
-![Untitled](Untitled%202.png)
+![Untitled](Untitled2.png)
 
 然后运行`yarn` 安装依赖，果然报错了，报错如下：
 
-![Untitled](Untitled%203.png)
+![Untitled](Untitled3.png)
 
 报错很明显了，切换个node版本就可以看，然后我用fnm包管理工具切换node版本到16.x ,然后再`yarn`安装，果然没啥问题了
 
-![Untitled](Untitled%204.png)
+![Untitled](Untitled4.png)
 
 OK,那么万里长征已经走了一半了，接下来就是运行`yarn deploy` ，看能不能正常运行；
 
 咦，报了两个错：
 
-![Untitled](Untitled%205.png)
+![Untitled](Untitled5.png)
 
-![Untitled](Untitled%206.png)
+![Untitled](Untitled6.png)
 
 先看第一个，不能找到模块vue，报错文件是根目录下的scripts/index.js
 
@@ -74,23 +74,23 @@ OK,那么万里长征已经走了一半了，接下来就是运行`yarn deploy` 
 
 然后我尝试将报错丢给gpt，也没有给我什么有用的信息，然后我就尝试全局搜，既然是找不到tomorrow-night.css，那肯定是哪个地方用到了，果然，在主题配置文件中找到了：
 
-![Untitled](Untitled%207.png)
+![Untitled](Untitled7.png)
 
 看到这，我大概明白了，就是highlight库里没有这个主题，我们换一个现在有的就可以了，改成了`stackoverflow-dark` 
 
 然后再运行`yarn deploy` ，大功告成：
 
-![Untitled](Untitled%208.png)
+![Untitled](Untitled8.png)
 
 ### 部署
 
 因为之前我写了一个发布hexo博客的工作流，我需要把里面用到node版本升级到16，不然安装依赖时会报错，如下：
 
-![Untitled](Untitled%209.png)
+![Untitled](Untitled9.png)
 
 然后提交代码，看看github actions是否运行成功
 
-![Untitled](Untitled%2010.png)
+![Untitled](Untitled10.png)
 
 OK，没问题，然后访问[https://stevensunny.com/](https://stevensunny.com/)，没有问题
 
@@ -98,11 +98,11 @@ OK，没问题，然后访问[https://stevensunny.com/](https://stevensunny.com/
 
 之前给博客配置过gitter，是一个聊天室，在博客右下角就可以发送消息，但是这次部署后我试了一下，现在处于不可用状态，就顺便排查了一下，首先看调试工具，发现一个sidecar的js没有请求成功，然后经过搜集资料，这个文件就是实现gitter集成在hexo的文件，但是不幸的是，这个库已经被官方存档了，也就是不维护了，之前的静态文件自然也请求不到了。
 
-![Untitled](Untitled%2011.png)
+![Untitled](Untitled11.png)
 
 然后我就换成了next支持的另外一个聊天室，chatra
 
-![Untitled](Untitled%2012.png)
+![Untitled](Untitled12.png)
 
 > 其实后来想了想，我是否可以自己把sidecar的库下载下来，然后build，把构建的产物放在自己的服务器上，然后修改next插件的源码，把文件地址替换为自己服务器上的地址，这样应该就能正常使用gitter了吧，毕竟gitter更符合对聊天室的定义(等有空了实操一下)
 > 
@@ -111,7 +111,7 @@ OK，没问题，然后访问[https://stevensunny.com/](https://stevensunny.com/
 
 之前为什么选型用Isso搭建？在评论系统的选择中，我认为能够让读者方便留言是最重要的，因此需要科学上网的、需要注册账号的都被我排除在外，从而 Isso 成为了首要选择。试了一下，这次升级后Isso正常：
 
-![Untitled](Untitled%2013.png)
+![Untitled](Untitled13.png)
 
 ### 小彩蛋
 
