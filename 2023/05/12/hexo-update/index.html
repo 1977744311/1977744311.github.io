@@ -19,23 +19,42 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.16.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Stevensunny&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="记一次升级Hexo博客的过程前言 毕业后这几年一直比较佛系，但是最近突然感觉自己不能再这样下去了，所以我就在notion上面通过database建立了一个属于自己的计划池，把之前一直想做但是都被自己拖延的计划一个一个扔进池子里(类似需求池那种感觉吧)，并且会给这个计划打上一些标签，预估周期之类的。然后呢，等自己有时间的时候，一个一个完成。  类似这样：  开始首先自然是拉项目了，我的博客是部署在G">
+<meta property="og:type" content="article">
+<meta property="og:title" content="记一次升级Hexo博客的过程">
+<meta property="og:url" content="http://example.com/2023/05/12/hexo-update/index.html">
 <meta property="og:site_name" content="Stevensunny&#39;s Blog">
+<meta property="og:description" content="记一次升级Hexo博客的过程前言 毕业后这几年一直比较佛系，但是最近突然感觉自己不能再这样下去了，所以我就在notion上面通过database建立了一个属于自己的计划池，把之前一直想做但是都被自己拖延的计划一个一个扔进池子里(类似需求池那种感觉吧)，并且会给这个计划打上一些标签，预估周期之类的。然后呢，等自己有时间的时候，一个一个完成。  类似这样：  开始首先自然是拉项目了，我的博客是部署在G">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%201.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%202.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%203.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%204.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%205.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%206.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%207.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%208.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%209.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%2010.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%2011.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%2012.png">
+<meta property="og:image" content="http://example.com/hexo-update/Untitled%2013.png">
+<meta property="article:published_time" content="2023-05-12T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-05-12T00:00:00.000Z">
 <meta property="article:author" content="steven">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/hexo-update/Untitled.png">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2023/05/12/hexo-update/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2023/05/12/hexo-update/","path":"2023/05/12/hexo-update/","title":"记一次升级Hexo博客的过程"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Stevensunny's Blog</title>
+<title>记一次升级Hexo博客的过程 | Stevensunny's Blog</title>
   
 
 
@@ -65,7 +84,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Stevensunny's Blog</h1>
+      <p class="site-title">Stevensunny's Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -118,7 +137,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -131,6 +150,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%87%E7%BA%A7Hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">记一次升级Hexo博客的过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B"><span class="nav-number">1.2.</span> <span class="nav-text">开始</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%87%E7%BA%A7%E8%BF%87%E7%A8%8B"><span class="nav-number">1.3.</span> <span class="nav-text">升级过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2"><span class="nav-number">1.4.</span> <span class="nav-text">部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gitter%E9%97%AE%E9%A2%98"><span class="nav-number">1.5.</span> <span class="nav-text">gitter问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Isso%E8%AF%84%E8%AE%BA"><span class="nav-number">1.6.</span> <span class="nav-text">Isso评论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8F%E5%BD%A9%E8%9B%8B"><span class="nav-number">1.7.</span> <span class="nav-text">小彩蛋</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -165,16 +185,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/12/hexo-update/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -188,13 +209,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Stevensunny's Blog">
+      <meta itemprop="name" content="记一次升级Hexo博客的过程 | Stevensunny's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/05/12/hexo-update/" class="post-title-link" itemprop="url">记一次升级Hexo博客的过程</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          记一次升级Hexo博客的过程
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -216,8 +237,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="记一次升级Hexo博客的过程"><a href="#记一次升级Hexo博客的过程" class="headerlink" title="记一次升级Hexo博客的过程"></a>记一次升级Hexo博客的过程</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote>
+    <div class="post-body" itemprop="articleBody"><h2 id="记一次升级Hexo博客的过程"><a href="#记一次升级Hexo博客的过程" class="headerlink" title="记一次升级Hexo博客的过程"></a>记一次升级Hexo博客的过程</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote>
 <p>毕业后这几年一直比较佛系，但是最近突然感觉自己不能再这样下去了，所以我就在notion上面通过database建立了一个属于自己的计划池，把之前一直想做但是都被自己拖延的计划一个一个扔进池子里(类似需求池那种感觉吧)，并且会给这个计划打上一些标签，预估周期之类的。然后呢，等自己有时间的时候，一个一个完成。</p>
 </blockquote>
 <p>类似这样：</p>
@@ -265,7 +285,6 @@
 
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line"><span class="built_in">mkdir</span> <span class="variable">$1</span></span><br><span class="line"><span class="built_in">cd</span> <span class="variable">$1</span></span><br><span class="line">hexo init .</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-theme-next</span><br><span class="line"><span class="built_in">touch</span> _config.next.yml</span><br><span class="line"><span class="built_in">cp</span> node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br><span class="line"><span class="built_in">nl</span> /_config.yml | sed ‘100c theme: next’</span><br><span class="line"><span class="built_in">mkdir</span> .github/workflows</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;name: Pages</span></span><br><span class="line"><span class="string">on:</span></span><br><span class="line"><span class="string">  push:</span></span><br><span class="line"><span class="string">    branches:</span></span><br><span class="line"><span class="string">      - source  # default branch</span></span><br><span class="line"><span class="string">jobs:</span></span><br><span class="line"><span class="string">  pages:</span></span><br><span class="line"><span class="string">    runs-on: ubuntu-latest</span></span><br><span class="line"><span class="string">    steps:</span></span><br><span class="line"><span class="string">      - uses: actions/checkout@v2</span></span><br><span class="line"><span class="string">      - name: Use Node.js 16.x</span></span><br><span class="line"><span class="string">        uses: actions/setup-node@v1</span></span><br><span class="line"><span class="string">        with:</span></span><br><span class="line"><span class="string">          node-version: &#x27;</span>16.x<span class="string">&#x27;</span></span><br><span class="line"><span class="string">      - name: Cache NPM dependencies</span></span><br><span class="line"><span class="string">        uses: actions/cache@v2</span></span><br><span class="line"><span class="string">        with:</span></span><br><span class="line"><span class="string">          path: node_modules</span></span><br><span class="line"><span class="string">          key: $&#123;&#123; runner.OS &#125;&#125;-npm-cache</span></span><br><span class="line"><span class="string">          restore-keys: |</span></span><br><span class="line"><span class="string">            $&#123;&#123; runner.OS &#125;&#125;-npm-cache</span></span><br><span class="line"><span class="string">      - name: Install Dependencies</span></span><br><span class="line"><span class="string">        run: npm install</span></span><br><span class="line"><span class="string">      - name: Build</span></span><br><span class="line"><span class="string">        run: npm run build</span></span><br><span class="line"><span class="string">      - name: Deploy</span></span><br><span class="line"><span class="string">        uses: peaceiris/actions-gh-pages@v3</span></span><br><span class="line"><span class="string">        with:</span></span><br><span class="line"><span class="string">          github_token: $&#123;&#123; secrets.GITHUB_TOKEN &#125;&#125;</span></span><br><span class="line"><span class="string">          publish_dir: ./public</span></span><br><span class="line"><span class="string">          publish_branch: master  # deploying branch&#x27;</span> &gt; .github/workflows/pages.yml</span><br><span class="line">git init</span><br><span class="line">git branch -M <span class="built_in">source</span></span><br><span class="line">git remote add origin <span class="variable">$2</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="string">&#x27;\nyarn.lock\npackage-lock.json&#x27;</span> &gt;&gt; .gitignore</span><br><span class="line">git add .</span><br><span class="line">git commit -m “init”</span><br><span class="line">git push -u origin <span class="built_in">source</span></span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
@@ -273,96 +292,18 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
+        
 
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/01/01/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="steven">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Stevensunny's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Stevensunny's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2020/01/01/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2020-01-01 00:00:00" itemprop="dateCreated datePublished" datetime="2020-01-01T00:00:00+00:00">2020-01-01</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-01-01 00:00:00" itemprop="dateModified" datetime="2022-01-01T00:00:00+00:00">2022-01-01</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/01/01/hello-world/" rel="prev" title="Hello World">
+                  <i class="fa fa-chevron-left"></i> Hello World
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
@@ -371,6 +312,8 @@
 
 
 
+
+    <div class="comments" id="isso-thread"></div>
 </div>
   </main>
 
@@ -431,7 +374,7 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/quicklink@2.3.0/dist/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"http://example.com/"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"http://example.com/2023/05/12/hexo-update/"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 <script class="next-config" data-name="isso" type="application/json">"https://isso.stevensunny.com/"</script>
 <script src="/js/third-party/comments/isso.js"></script>
