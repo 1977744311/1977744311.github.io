@@ -110,3 +110,7 @@ search:
   field: post
   content: true
   format: html
+
+marked:
+  prependRoot: true
+  postAsset: true
